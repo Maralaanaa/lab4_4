@@ -1,20 +1,15 @@
-package com.example.lab4_3;
+package com.example.lab4_4;
 
-import static android.icu.text.CaseMap.*;
-
-import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.annotation.SuppressLint;
-import android.icu.text.CaseMap;
-import android.media.MediaDrm;
 import android.media.MediaPlayer;
-import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
 import android.widget.SeekBar;
 import android.widget.TextView;
+
+import com.example.lab4_3.R;
 
 import java.util.concurrent.TimeUnit;
 
